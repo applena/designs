@@ -1,0 +1,28 @@
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background: aqua;
+  color: darkblue;
+  margin: auto;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  background: lightcyan;
+  padding: 20px;
+}
+
+footer {
+  background: aqua;
+  bottom: 0;
+  color: darkblue;
+  margin: auto;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+}
