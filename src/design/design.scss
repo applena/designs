@@ -1,28 +1,42 @@
+@import "./variables";
+@import "./mixins";
+
 html body {
+  background: $background;
   height: 100%;
   width: 100%;
 }
 
 header {
-  background: aqua;
-  color: darkblue;
+  background: $rootColor;
+  color: $accentColor;
   margin: auto;
   padding: 20px;
   position: fixed;
+  text-align: center;
   width: 100%;
+  margin-bottom: $space;
 }
 
 main {
-  background: lightcyan;
-  padding: 20px;
+  padding: $spacing;
+  padding-top: $space;
+  @include flex($flexCol...);
+
+  p {
+    @include borderRadius($radius);
+    @include center($center);
+    padding: $spacing;
+  }
 }
 
 footer {
-  background: aqua;
+  background: $rootColor;
   bottom: 0;
-  color: darkblue;
+  color: $accentColor;
   margin: auto;
-  padding: 20px;
-  position: absolute;
+  padding: $spacing;
+  position: fixed;
+  text-align: center;
   width: 100%;
 }

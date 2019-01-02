@@ -1,0 +1,24 @@
+$background: #ccc;
+$spacing: 1em;
+$rootColor: #333;
+$accentColor: #f3f3f3;
+$bleed: 1em;
+$space: 4em;
+$radius: 2em;
+$flexRows: (
+  flex-direction: row,
+  flex-wrap: nowrap,
+  justify-content: center,
+  align-itmes: center
+);
+$flexCol: (
+  flex-direction: columns,
+  flex-wrap: wrap,
+  justify-content: center,
+  align-itmes: center
+);
+$center: (
+  text-align: center,
+  margin: auto,
+  vertical-align: center
+);

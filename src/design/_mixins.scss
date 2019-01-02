@@ -1,0 +1,19 @@
+@mixin borderRadius($radius) {
+  border: 2px solid #111;
+  border-radius: $radius;
+}
+
+@mixin flex($flexRows...) {
+  display: flex;
+  flex-direction: flex-direction;
+  flex-wrap: flex-wrap;
+  justify-content: justify-conent;
+  align-items: align-items;
+}
+
+@mixin center($center) {
+  text-align: center;
+  margin: auto;
+}
+
+// Make some border mixins (with good names) that you can call to apply various box shadow effects
