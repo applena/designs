@@ -1,28 +1,5 @@
-html body {
-  height: 100%;
-  width: 100%;
-}
-
-header {
-  background: aqua;
-  color: darkblue;
-  margin: auto;
-  padding: 20px;
-  position: fixed;
-  width: 100%;
-}
-
-main {
-  background: lightcyan;
-  padding: 20px;
-}
-
-footer {
-  background: aqua;
-  bottom: 0;
-  color: darkblue;
-  margin: auto;
-  padding: 20px;
-  position: absolute;
-  width: 100%;
-}
+@import "./variables";
+@import "./mixins";
+@import "./core/_base.scss";
+@import "./core/_footer.scss";
+@import "./core/_header.scss";

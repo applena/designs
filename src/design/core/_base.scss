@@ -1,0 +1,17 @@
+html body {
+  background: $background;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  padding: $spacing;
+  padding-top: $space;
+  @include flex($flexCol...);
+
+  p {
+    @include borderRadius($radius);
+    @include center($center);
+    padding: $spacing;
+  }
+}
